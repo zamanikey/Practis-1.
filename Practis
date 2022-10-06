@@ -1,0 +1,16 @@
+// Task 1 def make_shirt(size,message): print("size: " + size) print("message: " + message)
+
+make_shirt('large', '22') make_shirt('large', '44')
+
+// Task 2 def make_shirt(size = 'large',font = 'I love Python'): print("size: " + size) print("font: " + font)
+
+make_shirt() make_shirt(size = 'middle') make_shirt(size = 'small',font = 'Hello World')
+
+// Task 3 
+def make_shirt(size = 'large' , font = 'I love Phython'):
+ print("size: " + size)
+ rint("font: " + font)
+ 
+make_shirt()
+make_shirt(size = 'middle')
+make_shirt(size = 'small',font = 'Hello World')
